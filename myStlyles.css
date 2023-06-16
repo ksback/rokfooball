@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+body
+{
+    font-size: 10px;
+    margin: 0px;
+}
+
+header{height: 100px; background-color: #202020;}
+header div{height: 100%;}
+
+footer{height: 95px; background-color: #202020;}
+
+.section1{height: 400px; background-color: #282828;}
+.section2{height: 500px; background-color: #282828;}
+.section3{height: 200px; background-color: #282828;}
+.section4{height: 130px; background-color: #282828;}
+.section5{height: 9400px; background-color: #282828;}
+.section6{height: 50px; background-color: #282828;}
+.section7{height: 300px; background-color: #282828;}
+
+.pagesection{
+    width: 1060px;
+    border-bottom: 1px solid #161616;
+    border-bottom-width: 3px;
+    border-bottom-color: #1b1b1b;
+    border-bottom-style: ;}
+
+.topbtn{
+    position: fixed;
+    background-color: #161616;
+    right: 80px;
+    bottom: 100px;
+    border-radius: 90% 90% 0% 0%;
+    width: 40px;
+    height: 40px;
+}
+.botbtn{
+    position: fixed;
+    background-color: #161616;
+    right: 80px;
+    bottom: 55px;
+    border-radius: 0% 0% 90% 90%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.imgbox{
+    display: table-cell;
+    vertical-align: middle;
+}
+.btnarrow{
+    max-width: 40px;
+    max-height: 40px;
+    object-fit: cover;
+}
+.toparrow{
+    transform: scaley(-1);
+}
+
+
+.col_1{width: 8.33%;}
+.col_2{width: 16.66%;}
+.col_3{width: 25%;}
+.col_4{width: 33.33%;}
+.col_5{width: 41.66%;}
+.col_6{width: 50%;}
+.col_7{width: 58.33%;}
+.col_8{width: 66.66%;}
+.col_9{width: 75%;}
+.col_10{width: 83.33%;}
+.col_11{width: 91.66%;}
+.col_12{width: 100%;}
+
+.top1{margin-top: 1px;}
+.top-2{margin-top: -2px;}
+.top-7{margin-top: -7px;}
+.top-10{margin-top: -10px;}
+.top13{margin-top: 13px;}
+.top57{margin-top: 57px;}
+.top-74{margin-top: -74px;}
+.top-78{margin-top: -78px;}
+.top96{margin-top: 95px;}
+
+.pad1{padding-top: 1px;}
+
+.row_1{
+    width: 1060px; display: flex;
+    margin: auto; padding: 10px 5px; margin-bottom: 30px;
+}
+.row_2{width: 1060px; margin: auto; padding: 100px 5px;margin-bottom: 30px;}
+.row_3{width: 1060px;}
+.row_4{width: 1060px; margin: auto; padding: 5px 5px;margin-bottom: 30px;}
+
+#menu{width: 1060px; height: 15px; position: sticky; top:70px; margin: auto; padding: 0px; 
+    font-family: 'Nanum Gothic', sans-serif;
+    justify-content: space-between; display: flex;
+}
+#menu ul{display: flex; justify-content: space-evenly; align-items: center; padding: 0px;}
+#menu ul li{list-style: none; padding: 0px 0px; user-select: none;}
+#menu ul :hover{color:black; }
+
+
+
+
+
+#main{font-family: 'Nanum Myeongjo';}
+#player{font-family: 'Nanum Gothic';}
+
+.text_white{color: white;}
+.text_lightgray{color: #b1b1b1;}
+.text_darkgray{color: #606060;}
+.text_deepgray{color: #454545;}
+
+.text_center{text-align: center;}
+.text_left{text-align: left;}
+.text_right{text-align: right;}
+.text_justify{text-align: justify;}
+
+.text_menu{font-weight: 700; font-size: 1.1rem;}
+.text_normal{font-weight: 400; font-size: 1.4rem;}
+.text_footer{font-weight: 400; font-size: 0.7rem;}
+.text_player_menu{font-weight: 400; font-size: 0.5rem;}
+.text_player_title{font-weight: 700; font-size: 2.0rem;}
+.text_player_sub_title{font-weight: 400; font-size: 0.8rem;}
+.text_player_name{font-weight: 700; font-size: 0.9rem;}
+.text_year{font-weight: 800; font-size: 2rem;}
+.text_poptitle{font-weight: 700; font-size: 1.2rem;}
+.text_popsub{font-weight: 400; font-size: 0.8rem;}
+
+.text_top{margin-top: 3px;}
+
+p{margin-top: 3px;}
+
+.narrow_line {line-height: 0.001;}
+.middle_line {line-height: 0.4;}
+.semiwide_line{line-height: 0.9;}
+.wide_line {line-height: 2;}
+
+text.fw{text-color: #d1897b;}
+
+
+#slider{
+    display: flex;
+    justify-content: center;
+}
+
+#imagecontainer{
+    width: 1060px;
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+#imageslider{
+    width: 5300px;
+    display: flex;
+    transition: transform 0.5s;
+}
+
+#interface{
+    width: 1060px;
+    height: 470px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#leftarrow{
+    position: absolute;
+    left: 30px;
+    top: 230px;
+}
+
+#rightarrow{
+    position: absolute;
+    right: 30px;
+    top: 230px;
+    transform: scaleX(-1);
+}
+
+#bottombtn{
+    display: flex;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bottombtn button{
+    padding: 5px 5px;
+    border: 0px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#bottombtn button:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.light{background-color: #242424;}
+.dark{background-color: #212121;}
+.mainbox{
+    width: 1060px; 
+    height: 420px; 
+    display: flex;
+}
+
+.allbox{width: 70px; height: 400px;}
+
+.playerbox{
+    display: flex;
+    width: 953px;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.yearbox{
+    margin-right: 10px;
+}
+
+.year{width: 70px; height: 400px; display: flex;
+align-items: center; justify-content: space-between;}
+.yeartext{writing-mode: vertical-rl; transform: rotate(180deg);}
+
+.index1{z-index: 1;}
+.index2{z-index: 2;}
+.index3{z-index: 3;}
+.index4{z-index: 4;}
+.index5{z-index: 5;}
+.index-1{z-index: -1;}
+.index-2{z-index: -2;}
+
+.gkbox{background-color: #bdb065;}
+.dfbox{background-color: #638763;}
+.mfbox{background-color: #556f95;}
+.fwbox{background-color: #d1897b;}
+
+.fw{color}
+
+.box{
+    width: 70px; 
+    height: 90px; 
+    border-radius: 25px 25px 70px 70px;
+    position: relative;
+    box-shadow: 0px 2px 5px 2px black;
+
+}
+
+
+.profile{
+    width: 60px; height: 60px; border-radius: 40px; 
+    background-color: #ffffff;
+    position: relative;
+    left: 5px;
+    bottom: 8px;
+
+
+}
+
+.imgprofile{
+    width: 100%; height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.no{
+    width: 70px; height: 90px;
+}
+
+.gk{color: #bdb065;}
+.df{color: #638763;}
+.mf{color: #556f95;}
+.fw{color: #d1897b;}
+.no{color: transparent;}
+
+p.gk{color: #bdb065;}
+p.df{color: #638763;}
+p.mf{color: #556f95;}
+p.fw{color: #d1897b;}
+p.no{color: transparent;}
+
+
+/*포지션 변경에 따른 그라데이션을 주고 싶지만 안되는 거로..*/
+.fwmf{border-image:linear-gradient(-45deg, #d1897b 0%, #556f95 100%);
+border-image-slice: 1; border-style: dotted;}
+
+.line{
+    border-left: thick solid;
+    border-width: 30px;
+    position: relative;
+    height: 335px;
+    top: -10px;
+    left: 20px;
+    
+}
+
+
+.bridgeleft{
+    border-top: thick solid ;
+    border-width: 25px;
+    width: 135px;
+    position: relative;
+    top: 11px;
+    right: 76.5px;
+    transform: rotate(-41.5deg);
+}
+
+.bridgeright{
+    border-top: thick solid ;
+    border-width: 25px;
+    width: 135px;
+    position: relative;
+    top: 11px;
+    right: 76.5px;
+    transform: rotate(41.5deg);
+    transform: matrix(-1);
+}
+
+.bridgetop{
+    border-left: thick solid;
+    border-width: 30px;
+    height: 90px;
+    left: 20px;
+    top: -356px;
+    position: relative;
+}
+
+.bridgebottom{
+    border-left: thick solid #638763;
+    border-width: 30px;
+    height: 60px;
+    left: 20px;
+    top: -25px;
+    margin-bottom: -20px;
+    position: relative;
+}
+
+
+.ptitle{position: relative;}
+
+.info{
+    width: 140PX;
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.8);
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 2px 5px 2px #000000;
+    display: none;
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.btn:hover .info {
+    display: block;
+    opacity: 1;
+    transition: all 0.5s ease-out;
+    }
+
+body {
+        user-select:none
+    }
